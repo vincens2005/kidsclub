@@ -10,7 +10,7 @@
 8.No distracting<br>
 9.We must follow the scedule unless it's a holiday / celebration<br>
 10.No licking people / equipment(unles it's lickable)<br><br>
-<h2>[Kid's Club Scedule]("scedule.html")</h2><br>
+<h2>[Kid's Club Scedule](scedule.html)</h2><br>
 
 
 
