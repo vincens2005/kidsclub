@@ -1,4 +1,4 @@
-
+<title>Kid's Club!</title>
 <h2>Kid's Club Rules:</h2><br>
 1.Have Fun<br>
 2.If you don't follow the rules you are kicked out for the day after 3 times<br>
