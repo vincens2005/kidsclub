@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Get Image Data URL using JavaScript</title>
+</head>
+<body>
+  <script>
+      var image = new Image();
+
+      // create an empty canvas element
+      var canvas = document.createElement("canvas"),
+          canvasContext = canvas.getContext("2d");
+
+      image.onload = function () {
+        
+        //Set canvas size is same as the picture
+        canvas.width = image.width;
+        canvas.height = image.height;
+     
+        // draw image into canvas element
+        canvasContext.drawImage(image, 0, 0, image.width, image.height);
+     
+        // get canvas contents as a data URL (returns png format by default)
+        var dataURL = canvas.toDataURL();
+
+        document.write(dataURL);
+      };
+
+      image.src = "source.jpeg";
+      
+    </script>
+</body>
+</html>
